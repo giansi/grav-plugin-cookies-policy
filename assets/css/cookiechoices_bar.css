@@ -1,0 +1,31 @@
+
+
+#cookieChoiceInfo, #cookieChoiceInfo div:first-child{
+    background-color: #000 !important;
+    color: #fff;
+    font-size: medium;
+    line-height: 18px;
+    padding: 10px !important;
+}
+
+#cookieChoiceInfo span, #cookieChoiceInfo a{
+    display: inline-block;
+    float: left;
+}
+
+#cookieChoiceInfo span{
+    width: 80%;
+    margin-right: 20px;
+}
+
+#cookieChoiceInfo a{
+    padding: 6px;
+    border: 1px solid #333;
+    background-color: #d5911a; /* #67E300; #d5e91b */
+    color: #fff;
+    display: inline-block;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -khtml-border-radius: 6px;
+}

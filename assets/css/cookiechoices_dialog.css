@@ -1,0 +1,30 @@
+
+
+#cookieChoiceInfo div:first-child {
+    background-color: #000 !important;
+    color: #fff;
+    font-size: medium;
+    line-height: 18px;
+    padding: 10px !important;
+}
+
+#cookieChoiceInfo span {
+    display: block;
+}
+
+#cookieChoiceInfo a {
+    float: right;
+    margin-top: 14px;
+    padding: 6px;
+    border: 1px solid #333;
+    background-color: #d5911a;
+    color: #fff;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    -khtml-border-radius: 6px;
+}
+
+.separator{
+    clear: both;
+}
