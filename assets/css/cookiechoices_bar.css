@@ -29,3 +29,19 @@
     border-radius: 6px;
     -khtml-border-radius: 6px;
 }
+
+@media screen and (max-width : 1280px) {
+    #cookieChoiceInfo span, #cookieChoiceInfo a{
+        display: inline-block;
+        float: none;
+    }
+
+    #cookieChoiceInfo span {
+        width: 100%;
+    }
+
+    #cookieChoiceInfo a{
+        min-width: 100px;
+        margin-top: 10px;
+    }
+}

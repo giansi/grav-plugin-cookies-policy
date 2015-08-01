@@ -28,3 +28,21 @@
 .separator{
     clear: both;
 }
+
+@media screen and (max-width : 768px) {
+    #cookieChoiceInfo {
+        text-align: center;
+    }
+
+    #cookieChoiceInfo a {
+        display: block;
+        float: none;
+        max-width: 100px;
+        margin: 6px auto !important;
+    }
+
+    #cookieChoiceInfo > div:nth-child(2), #cookieChoiceInfo > div:nth-child(2) > div {
+        top: 10px !important;
+        margin-top: 0 !important;
+    }
+}
