@@ -7,9 +7,20 @@ author:
   url: http://diblas.net
 homepage: https://github.com/giansi/grav-plugin-cookies-policy
 demo: https://github.com/giansi/grav-plugin-cookies-policy
-keywords: "plugin, cookie, policy, european, law"
+keywords: plugin, cookie, policy, european, law
 bugs: https://github.com/giansi/grav-plugin-cookies-policy/issues
 license: MIT
 
 form:
   validation: strict
+  fields:
+      enabled:
+        type: toggle
+        label: Plugin status
+        highlight: 1
+        default: 0
+        options:
+          1: Enabled
+          0: Disabled
+        validate:
+          type: bool
