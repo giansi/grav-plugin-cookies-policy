@@ -1,6 +1,7 @@
 name: CookiesPolicy
 version: 1.0.0
 description: Displays a banner or a dialog on page, to accomplish with the European Community Cookies Law
+icon: code
 author:
   name: Giansimon Diblas
   email: -

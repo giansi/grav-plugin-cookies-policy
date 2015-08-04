@@ -33,17 +33,9 @@ The `cookiespolicy` plugin must be included into your theme. as follows:
 You should inherit the theme you are using to customize it without pain, as well explaind in this [Grav blog entry](http://getgrav.org/blog/theme-development-with-inheritance), then add that chunck of code just before the `<\body>` tag.
 
 ## Customization
-To customize the plugin, just add a **plugins.yaml** file under the **user/config** folder and paste this code inside:
-     
-    cookiespolicy:
-        enabled: true
-        type: bar
-        message: We use cookies to help us give you the best experience when using our website. Unless you change your settings, we'll assume that you agree for us to do this. However, you can change your settings at any time according with your browser.
-        btn_privacy: 'Learn more'
-        btn_close: 'Close'
-        url: 'http://example.com/privacy-url'
+To customize the plugin, you can just copy the `cookiespolicy.yaml` file under the `user/config/plugins` folder - create that folder if misses - then change the information you need.
 
-then change the information you need. Be sure to provide a valid privacy url page and arrange the `url` parameter to point that route.
+Be sure to provide a valid privacy url page and arrange the `url` parameter to point that route.
 
 # Updating
 
