@@ -39,7 +39,7 @@ class CookiesPolicyPlugin extends Plugin
     {
         $type = strtolower($this->config->get('plugins.cookiespolicy.type'));
         if (empty($type)){
-            throw new \InvalidArgumentException('The Cookie Policy type variable value must be defined. At the moment it is empty. If you are overriding the default confoguration, please define the type variable too with a valid value.');
+            throw new \InvalidArgumentException('The Cookie Policy type variable value must be defined. At the moment it is empty. If you are overriding the default configuration, please define the type variable too with a valid value.');
         }
 
         if (!preg_grep("/" . $type . "/i", array(
@@ -53,10 +53,18 @@ class CookiesPolicyPlugin extends Plugin
         $this->grav['assets']->addCss('plugin://cookiespolicy/assets/css/cookiechoices_' . $type . '.css', -999);
 
         $twig = $this->grav['twig'];
-        $twig->twig_vars['cookiespolicy_type'] = $type;
+        $twig->twig_vars['cookiespolicy_cookie_type'] = $type;
         $twig->twig_vars['cookiespolicy_message'] =  addslashes($this->config->get('plugins.cookiespolicy.message'));
         $twig->twig_vars['cookiespolicy_btn_privacy'] = $this->config->get('plugins.cookiespolicy.btn_privacy');
         $twig->twig_vars['cookiespolicy_btn_close'] = $this->config->get('plugins.cookiespolicy.btn_close');
         $twig->twig_vars['cookiespolicy_url'] = $this->config->get('plugins.cookiespolicy.url');
+                
+        $twig->twig_vars['cookiespolicy_markup'] = $twig->twig->render('partials/cookiespolicy.html.twig', array(
+            'cookiespolicy_cookie_type' => $twig->twig_vars['cookiespolicy_cookie_type'],
+            'cookiespolicy_message' => $this->config->get('plugins.cookiespolicy.message'),
+            'cookiespolicy_btn_privacy' => $twig->twig_vars['cookiespolicy_btn_privacy'],
+            'cookiespolicy_btn_close' => $twig->twig_vars['cookiespolicy_btn_close'],
+            'cookiespolicy_url' => $twig->twig_vars['cookiespolicy_url'],
+        ));
     }
 }

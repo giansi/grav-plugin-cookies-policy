@@ -1,5 +1,5 @@
 name: CookiesPolicy
-version: 1.0.4
+version: 1.0.6
 description: 'Displays a banner or a dialog on page, to accomplish with the European Community Cookies Law'
 icon: gavel
 author:
@@ -32,8 +32,8 @@ form:
         size: small
         default: bar
         options:
-          normal: bar
-          expert: dialog
+          bar: bar
+          dialog: dialog
         help: Choose the displayed banner type
           
       message:
