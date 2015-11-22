@@ -54,17 +54,11 @@ class CookiesPolicyPlugin extends Plugin
 
         $twig = $this->grav['twig'];
         $twig->twig_vars['cookiespolicy_cookie_type'] = $type;
-        $twig->twig_vars['cookiespolicy_message'] =  addslashes($this->config->get('plugins.cookiespolicy.message'));
-        $twig->twig_vars['cookiespolicy_btn_privacy'] = $this->config->get('plugins.cookiespolicy.btn_privacy');
-        $twig->twig_vars['cookiespolicy_btn_close'] = $this->config->get('plugins.cookiespolicy.btn_close');
         $twig->twig_vars['cookiespolicy_url'] = $this->config->get('plugins.cookiespolicy.url');
-                
+
         $twig->twig_vars['cookiespolicy_markup'] = $twig->twig->render('partials/cookiespolicy.html.twig', array(
             'cookiespolicy_cookie_type' => $twig->twig_vars['cookiespolicy_cookie_type'],
-            'cookiespolicy_message' => $this->config->get('plugins.cookiespolicy.message'),
-            'cookiespolicy_btn_privacy' => $twig->twig_vars['cookiespolicy_btn_privacy'],
-            'cookiespolicy_btn_close' => $twig->twig_vars['cookiespolicy_btn_close'],
-            'cookiespolicy_url' => $twig->twig_vars['cookiespolicy_url'],
+            'cookiespolicy_url' => $twig->twig_vars['cookiespolicy_url']
         ));
     }
 }

@@ -1,6 +1,3 @@
 enabled: true
 type: bar
-message: We use cookies to help us give you the best experience when using our website. Unless you change your settings, we'll assume that you agree for us to do this. However, you can change your settings at any time according with your browser.
-btn_privacy: 'Learn more'
-btn_close: 'Close'
 url: 'http://example.com/privacy-url'

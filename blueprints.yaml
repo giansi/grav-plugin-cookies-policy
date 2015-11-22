@@ -1,5 +1,5 @@
 name: CookiesPolicy
-version: 1.0.6
+version: 1.0.7
 description: 'Displays a banner or a dialog on page, to accomplish with the European Community Cookies Law'
 icon: gavel
 author:
@@ -25,7 +25,7 @@ form:
           0: Disabled
         validate:
           type: bool
-          
+
       type:
         type: select
         label: Type
@@ -35,31 +35,10 @@ form:
           bar: bar
           dialog: dialog
         help: Choose the displayed banner type
-          
-      message:
-        type: textarea
-        label: Displayed message
-        size: high
-        default: We use cookies to help us give you the best experience when using our website. Unless you change your settings, we'll assume that you agree for us to do this. However, you can change your settings at any time according with your browser.
-        help: Add here the message you want to display into the banner
-          
-      btn_privacy:
-        type: text
-        label: Privacy button label
-        size: small
-        default: Learn more
-        help: Add here the label you want to display for the privacy button
-          
+
       url:
         type: text
         label: Privacy route
         size: medium
         placeholder: http://example.com/privacy-url
         help: Add here the route that points the full privacy page
-                  
-      btn_close:
-        type: text
-        label: Close button label
-        size: small
-        default: Close
-        help: Add here the label you want to display for the close button
