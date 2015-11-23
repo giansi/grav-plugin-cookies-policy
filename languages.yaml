@@ -1,0 +1,20 @@
+en:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "We use cookies to help us give you the best experience when using our website. Unless you change your settings, we will assume that you agree for us to do this. However, you can change your settings at any time according with your browser."
+      PRIVACY: "Learn more"
+      CLOSE: "Close"
+
+fr:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "En continuant à naviguer sur ce site, vous acceptez l'utilisation des cookies afin de réaliser des statistiques d'audiences et vous proposer des services et une offre adapés à vos centres d'intérêts."
+      PRIVACY: "En savoir plus"
+      CLOSE: "Fermer"
+
+ja:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "日本語"
+      PRIVACY: "詳細"
+      CLOSE: "閉じる"

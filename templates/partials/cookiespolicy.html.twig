@@ -1,5 +1,5 @@
 <script>
-    document.addEventListener('DOMContentLoaded', function(event) {
-        cookieChoices.showCookieConsent{{ cookiespolicy_cookie_type|capitalize }}('{{ cookiespolicy_message }}','{{ cookiespolicy_btn_close }}','{{ cookiespolicy_btn_privacy }}','{{ cookiespolicy_url }}');
-    });
+  document.addEventListener('DOMContentLoaded', function(event) {
+    cookieChoices.showCookieConsent{{ cookiespolicy_cookie_type|capitalize }}("{{ 'PLUGINS.COOKIES_POLICY.MESSAGE'|t }}","{{ 'PLUGINS.COOKIES_POLICY.CLOSE'|t }}","{{ 'PLUGINS.COOKIES_POLICY.PRIVACY'|t }}","{{ cookiespolicy_url }}");
+  });
 </script>

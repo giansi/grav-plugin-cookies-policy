@@ -1,8 +1,14 @@
+# v1.0.7
+## 11/22/2015
+
+1. [](#new)
+    * Added multi-language support
+
 # v1.0.6
 ## 11/16/2015
 
 1. [](#improved)
-    * Incremented zindex for bar Type    
+    * Incremented zindex for bar Type
     * Cookies policy template is now callable by a variable in the Twig template to avoid an error, when the plugin is disabled. The old include method is deprecated.
 2. [](#bugfix)
     * Corrected values for Type option
@@ -42,7 +48,7 @@
 
 1. [](#bugfix)
     * Fixed bar and dialog appareance for mobile devices
-    
+
 # v0.9.0
 ## 07/31/2015
 
