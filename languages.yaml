@@ -18,3 +18,10 @@ ja:
       MESSAGE: "日本語"
       PRIVACY: "詳細"
       CLOSE: "閉じる"
+
+it:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Questo sito usa i cookies per migliorare la vostra esperienza di navigazione e per fini statistici. Nessun dato viene raccolto senza il consenso dell'utente."
+      PRIVACY: "Per maggiori informazioni andare nostra pagina della privacy..."
+      CLOSE: "Accetto i Cookies da questo sito."
