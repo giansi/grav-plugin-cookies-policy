@@ -25,3 +25,16 @@ it:
       MESSAGE: "Questo sito usa i cookies per migliorare la vostra esperienza di navigazione e per fini statistici. Nessun dato viene raccolto senza il consenso dell'utente."
       PRIVACY: "Per maggiori informazioni andare nostra pagina della privacy..."
       CLOSE: "Accetto i Cookies da questo sito."
+ro:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Folosim cookie pentru a ne ajuta să vă oferim o exeriență cât mai bună la folosirea site-ului nostru cât și pentru date statistice."
+      PRIVACY: "Mai multe detalii"
+      CLOSE: "Acceptă și închide"
+      
+      
+      
+      
+      
+      
+      
