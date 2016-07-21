@@ -31,10 +31,9 @@ ro:
       MESSAGE: "Folosim cookie pentru a ne ajuta să vă oferim o exeriență cât mai bună la folosirea site-ului nostru cât și pentru date statistice."
       PRIVACY: "Mai multe detalii"
       CLOSE: "Acceptă și închide"
-      
-      
-      
-      
-      
-      
-      
+pl:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Stosujemy ciasteczka  aby ułatwić Tobie korzystanie z naszego serwisu.  Pamiętaj, że w każdej chwili możesz zmienić ustawienia dotyczące cookies w ustawieniach swojej przeglądarki internetowej."
+      PRIVACY: "Dowiedz się więcej"
+      CLOSE: "Zamknij"
