@@ -37,3 +37,17 @@ pl:
       MESSAGE: "Stosujemy ciasteczka  aby ułatwić Tobie korzystanie z naszego serwisu.  Pamiętaj, że w każdej chwili możesz zmienić ustawienia dotyczące cookies w ustawieniach swojej przeglądarki internetowej."
       PRIVACY: "Dowiedz się więcej"
       CLOSE: "Zamknij"
+
+sk:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Na zabezpečenie našich služieb používame súbory cookies. Použitie súborov cookies môžete kedykoľvek zmeniť v nastaveniach vášho prehliadača."
+      PRIVACY: "Viac informácií"
+      CLOSE: "Zavrieť"
+
+cs:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Pro zabezpečení našich služeb používáme soubory cookies. Použití souborů cookies můžete kdykoliv změnit v nastaveních vašeho prohlížeče."
+      PRIVACY: "Dovědět se více"
+      CLOSE: "Zavřít"
