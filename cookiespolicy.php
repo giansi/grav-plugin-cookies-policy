@@ -50,8 +50,10 @@ class CookiesPolicyPlugin extends Plugin
         }
 
         $this->grav['assets']->addJs('plugin://cookiespolicy/assets/js/cookiechoices.js');
-        $this->grav['assets']->addCss('plugin://cookiespolicy/assets/css/cookiechoices_' . $type . '.css', -999);
-
+		if ($this->config->get('plugins.cookiespolicy.use_own_css')) {
+			$this->grav['assets']->addCss('plugin://cookiespolicy/assets/css/cookiechoices_' . $type . '.css', -999);
+		}
+		
         $twig = $this->grav['twig'];
         $twig->twig_vars['cookiespolicy_cookie_type'] = $type;
         $twig->twig_vars['cookiespolicy_url'] = $this->config->get('plugins.cookiespolicy.url');

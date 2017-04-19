@@ -25,6 +25,18 @@ form:
           0: Disabled
         validate:
           type: bool
+          
+      use_own_css:
+        label: Use plugin's CSS
+        help: Add CookiesPolicy plugin's own CSS. Disable if you're adding your CSS
+        type: toggle
+        highlight: 1
+        default: 1
+        options:
+          1: PLUGIN_ADMIN.ENABLED
+          0: PLUGIN_ADMIN.DISABLED
+        validate:
+          type: bool
 
       type:
         type: select
