@@ -28,7 +28,7 @@ form:
           
       use_own_css:
         label: Use plugin's CSS
-        help: Add Shopping Cart plugin own CSS. Disable if you're adding your CSS
+        help: Add CookiesPolicy plugin's own CSS. Disable if you're adding your CSS
         type: toggle
         highlight: 1
         default: 1
