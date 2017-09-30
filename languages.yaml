@@ -4,6 +4,13 @@ en:
       MESSAGE: "We use cookies to help us give you the best experience when using our website. Unless you change your settings, we will assume that you agree for us to do this. However, you can change your settings at any time according with your browser."
       PRIVACY: "Learn more"
       CLOSE: "Close"
+      
+de:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Diese Website nutzt Cookies um Ihr Nutzungserlebnis zu optimieren. Wenn Sie Ihre Einstellungen nicht ändern, nehmen wir an, dass Sie damit einverstanden sind. Sie können die Cookieeinstellungen jedoch jederzeit in den Einstellungen Ihres Browsers anpassen."
+      PRIVACY: "Mehr erfahren"
+      CLOSE: "Schließen"
 
 fr:
   PLUGINS:
