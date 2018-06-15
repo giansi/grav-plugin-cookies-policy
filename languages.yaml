@@ -5,6 +5,13 @@ en:
       PRIVACY: "Learn more"
       CLOSE: "Close"
 
+es:
+  PLUGINS:
+    COOKIES_POLICY:
+      MESSAGE: "Usamos cookies para ayudarnos a brindarle la mejor experiencia al usar nuestro sitio web. A menos que cambie su configuración, asumiremos que acepta que hagamos esto. Sin embargo, puede cambiar su configuración en cualquier momento de acuerdo con su navegador."
+      PRIVACY: "Aprende más"
+      CLOSE: "Cerrar"
+
 fr:
   PLUGINS:
     COOKIES_POLICY:
